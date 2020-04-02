@@ -5,7 +5,7 @@ max_number = 0
 
 while True:
     numbers = input('Введи какое нибудь число типа "1234567" и я найду для тебя в нем самое большое чилсло -  ')
-    if numbers.isdigit() == True:
+    if numbers.isdigit():
         break
     else:
         print('Вводи тольцо цифры, я наблюдаю за тобой!!')
